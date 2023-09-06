@@ -105,7 +105,12 @@
         document.getElementById('ticketCost').innerHTML += t * 3;
         document.getElementById('ttCost').innerHTML += t *3;
 
-        let b=235.87,s=35,p=75,S=60,j=70;
+        let Money=235.87;
+        let Shirt=35;
+        let Pants=75;
+        let Shoes=60;
+        let Jacket=70;
+        let bank = Money - Shirt - Pants - Shoes;
         document.getElementById('bank').innerHTML =+ b-s-p-S;
         document.getElementById('addJacket').innerHTML =+ b-s-p-S-j;
 
