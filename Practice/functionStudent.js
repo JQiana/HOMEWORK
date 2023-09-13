@@ -39,7 +39,7 @@ function recPerm(h,w) {
     return perimeter;
 }
 
-document.getElementById('pamswer'); innerHTML = recPerm(rHeight,rWidth) + "feet";
+document.getElementById('panswer'); innerHTML = recPerm(rHeight,rWidth) + "feet";
 
 console.log(recPerm(5,6));
 
@@ -48,7 +48,7 @@ function calcArea(){
     var w = document.getElementById('width').value;
     let area = h*w;
     document.getElementById('answer');
-    innerHTML = area + "suare feet";
+    innerHTML = area + "square feet";
 }
 
 function test() {
