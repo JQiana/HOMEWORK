@@ -17,7 +17,7 @@ console.log(course.enrolled);
 console.log(course.cNumber + " Open: " + course.avalibility()),
 
 //Window Object
-document.getElementById('hwDtails').innerHTML = "height: " + window.innerHeight + "<br/> width:" + window.innerHeight;
+document.getElementById('hwDetails').innerHTML = "height: " + window.innerHeight + "<br/> width:" + window.innerHeight;
 
 function IUPUIwebsite(){
     open("http://www.iupui.edu");
@@ -82,12 +82,11 @@ let rNum = Math.ceil(Math.random()*10)+1;
 document.getElementById('random').innerHTML = rNum;
 
 //Date object
-let toFixed = new Date();
+let today = new Date();
 document.write(today);
 document.write("<br>Date:" + today.getDate());
 document.write("<br>:Month" + today.getMonth());
 document.write("<br>Day:" + today.getDay());
 document.write("<br>Date:" + today.getDate());
 document.write("<br>Year:" + today.getFullYear());
-document.write("<br>Short Today:" + today.getDateString());
-
+document.write("<br>Short Today:" + today.toDateString());
