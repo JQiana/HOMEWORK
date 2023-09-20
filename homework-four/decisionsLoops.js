@@ -1,7 +1,15 @@
 let bank = 45.67;
 let toy = 45.99;
 let buyToy = bank>toy; //t/f
-//bank small than toy so it has nothing show uo\p
+//bank small than toy so it has nothing show up
 if(!buyToy){
     document.getElementById('bank').innerHTML = "Let's go buy it!";
+}
+
+//Birthday Month
+let today = new Date();
+let thisMonth = today.getMonth()+1;//9
+
+if(thisMonth==7){
+    document.getElementById('birthday').innerHTML = "No party for you this month";
 }
