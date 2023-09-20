@@ -81,3 +81,14 @@ innerHTML = Math.random();
 
 let rNum = Math.ceil(Math.random()*10)+1;
 document.getElementById('random').innerHTML = rNum;
+
+//Date object
+let toFixed = new Date();
+document.write(today);
+document.write("<br>Date:" + today.getDate());
+document.write("<br>:Month" + today.getMonth());
+document.write("<br>Day:" + today.getDay());
+document.write("<br>Date:" + today.getDate());
+document.write("<br>Year:" + today.getFullYear());
+document.write("<br>Short Today:" + today.getDateString());
+
