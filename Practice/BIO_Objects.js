@@ -8,13 +8,13 @@ const course = {
     }
 }
 
-console.log(course.cNumber + "Open: " + course.availability());
+console.log(course.cNumber + "Open: " + course.avalibility());
 
 //course.enroalled=course.enrolled+2;
 course.enrolled+=2;
 
 console.log(course.enrolled);
-console.log(course.cNumber + " Open: " + course.availability()),
+console.log(course.cNumber + " Open: " + course.avalibility()),
 
 //Window Object
 document.getElementById('hwDtails').
@@ -78,3 +78,6 @@ document.getElementById('floor').
 innerHTML = Math.floor(myPi);
 document.getElementById('random').
 innerHTML = Math.random();
+
+let rNum = Math.ceil(Math.random()*10)+1;
+document.getElementById('random').innerHTML = rNum;
