@@ -65,3 +65,16 @@ console.log(classArray);
 let myNum = 45.5786756;
 document.getElementById('fixed').innerHTML = myNum.toFixed(1);
 document.getElementById('precise').innerHTML = myNum.toPrecision(5);
+
+//math object
+let myPi = Math.PI;
+console.log(myPi);
+
+document.getElementById('round').
+innerHTML = Math.round(myPi);
+document.getElementById('ceil').
+innerHTML = Math.ceil(myPi);
+document.getElementById('floor').
+innerHTML = Math.floor(myPi);
+document.getElementById('random').
+innerHTML = Math.random();
