@@ -17,8 +17,7 @@ console.log(course.enrolled);
 console.log(course.cNumber + " Open: " + course.avalibility()),
 
 //Window Object
-document.getElementById('hwDtails').
-innerHTML = "height: " + window.innerHeight + "<br/> width:" + window.innerHeight;
+document.getElementById('hwDtails').innerHTML = "height: " + window.innerHeight + "<br/> width:" + window.innerHeight;
 
 function IUPUIwebsite(){
     open("http://www.iupui.edu");
