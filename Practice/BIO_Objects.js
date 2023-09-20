@@ -48,3 +48,20 @@ function getGreeting(){
     innerHTML = "Your greeting is" + gMsg.
     length + "characters long and the middle character is" + half;
 }
+
+var coolText = document.getElementById('coolText').innerHTML;
+console.log(coolText);
+document.getElementById('coolText').
+innerHeight = coolText.toUpperCase();
+console.log('coolText');
+coolText = coolText.replace("pretty","really");
+console.log('coolText');
+
+let classList = document.getElementById('classes').innerHTML;
+let classArray = classList.split(",");
+console.log(classArray);
+
+//Number object
+let myNum = 45.5786756;
+document.getElementById('fixed').innerHTML = myNum.toFixed(1);
+document.getElementById('precise').innerHTML = myNum.toPrecision(5);
