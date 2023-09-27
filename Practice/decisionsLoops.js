@@ -87,10 +87,13 @@ function rollDie(){
             break;
         case 4:
             dieImage = "die_face_4.png";
+            break;
         case 5:
             dieImage = "die_face_5.png";
+            break;
         case 6:
             dieImage = "die_face_6.png";
+            break;
         default:
             console.log("not working")
     }
