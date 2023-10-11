@@ -1,3 +1,21 @@
+//For loop
+for (let i = 0; i<5; i++){
+    document.getElementById("for").innerHTML += i + " ";
+}
+
+//while Loop
+let w = 0;
+while(w < 5){
+    w++;
+    document.getElementById("while").innerHTML += w + " ";
+}
+
+//Do while loop
+let d = -10;
+do{
+    document.getElementById("dpWhile").innerHTML += d + " ";
+}while (d>4)
+
 //problem 1
 let months = {'January','February','March','April', 'May','June'};
 
@@ -59,4 +77,31 @@ for(let t=10; t>=0;t--){
         ticketText+="Another seat is gone.Only" + t + "tickets left.<br/>";
     }
     document.getElementById('an7').innerHTML = ticketText;
+}
+
+//for in loops
+const Course={
+    "cNum":"N220",
+    "cTitle":"Intro to Javascript",
+    "offering":['Fall','spring','summer'],
+    "enrolled":20,
+}
+
+let holiday = "halloween";
+
+for(property in Course){
+    document.getElementById('forIn').innerHTML+=property+ ":" + Course[property]+ "<br/>";
+}
+
+for(month in months){
+    document.getElementById('forIn').innerHTML+=month+ ":" + months[month]+ "<br/>";
+}
+
+for(h in holiday){
+    document.getElementById('fOrIn').innerHTML+= h + ":" + holiday[h]+ "<br/>";
+}
+
+//for of loop
+for(h of holiday){
+    document.getElementById('forOf').innerHTML+= h + ":" + holiday[h]+ "<br/>";
 }
