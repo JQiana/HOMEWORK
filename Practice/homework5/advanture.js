@@ -1,3 +1,12 @@
+let tool;
+function alertAcontrol(){
+    
+
+}
+function goHome(){
+    alert("You go home then sleep.")
+}
+
 function enterRoom(){
     alert("You enter the room and it's really dark and the growl is getting louder.");
 
@@ -24,7 +33,7 @@ function leaveRoom(){
 function startGame(){
     let player = prompt("Welcome to my choose-your-own advanture game.Please start by entering your name:");
     alert("Welcome," + player + "! Today we are going on a campus adventure? Are you ready?Click ok to begin.");
-    let tool = prompt("To begin your adventure, you need to select a tool. Please pick your tool of choice: ladder, flashlight, or shovel");
+    tool = prompt("To begin your adventure, you need to select a tool. Please pick your tool of choice: ladder, flashlight, or shovel");
     let room = prompt("You are wlking throught the campus center and hear a menacing frowl coming from another room. do you ENTER or LEAVE?");
 
     if(room.toUpperCase()=="ENTER"){
