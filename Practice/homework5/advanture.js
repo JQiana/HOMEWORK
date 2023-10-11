@@ -5,7 +5,7 @@ function enterRoom(){
         alert("Luckily you chose the shovel. You aere able to defeat the beast by knocking him out with your" + tool);
     } else if(tool.toUpperCase()=="LADDER"){
         alert("You tried to climb your" + tool + "but the beast dragged you down and devoured you.");
-    }else is(tool.toUpperCase()=="FLASHLIGHT"){
+    }else if(tool.toUpperCase()=="FLASHLIGHT"){
         alert("You were able to blind the beast with your" + tool + "and escape.");
         let alertAC = Prompt("Do you tell authorities about the beast? ALERT ot HOME");
 
