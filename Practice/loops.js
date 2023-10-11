@@ -20,15 +20,15 @@ do{
 let months = ['January','February','March','April', 'May','June'];
 
 for(let m=0; m<months.length; m++) {
-monthText+=months[m]+"<br>";
+monthsText+=months[m]+"<br>";
 }
-document.getElementById('an1').innerHTML = monthText;
+document.getElementById('an1').innerHTML = monthsText;
 
 //problem 2
 let monthsText2 = '<ol>';
 
 for(let m=0; m<months.length; m++) {
-monthText+="<il>"=months[M] + "</il>";
+monthsText2+="<il>"=months[m] + "</il>";
 }
 monthsText2+="</ol>"
 document.getElementById('an2').innerHTML = monthText;
