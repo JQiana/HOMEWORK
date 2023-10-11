@@ -17,7 +17,7 @@ do{
 }while (d>4)
 
 //problem 1
-let months = {'January','February','March','April', 'May','June'};
+let months = ['January','February','March','April', 'May','June'];
 
 for(let m=0; m<months.length; m++) {
 monthText+=months[m]+"<br>";
@@ -104,4 +104,12 @@ for(h in holiday){
 //for of loop
 for(h of holiday){
     document.getElementById('forOf').innerHTML+= h + ":" + holiday[h]+ "<br/>";
+}
+
+for(h of months){
+    document.getElementById('forOf').innerHTML+=h + "<br/>";
+}
+
+for(h of Course){
+    document.getElementById('forOf').innerHTML+= h + "<br/>";
 }
